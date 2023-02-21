@@ -1,7 +1,7 @@
 let startButton = document.getElementById("start-btn");
 let questionArea = document.getElementById("question-area");
 let questionSpace = document.getElementById("question");
-let answer = document.getElementById("answer-buttons");
+let answerShow = document.getElementById("answer-buttons");
 let rules = document.getElementById("rules-info");
 let rulesButton = document.getElementById("rules-btn");
 let nextButton = document.getElementById("next-btn");
@@ -32,11 +32,29 @@ function rulesInfo() {
 }
 
 function nextQuestion() {
+  resetArea();
   showQuestion(shuffleQuestions[currentQuestion]);
 }
 
 function showQuestion(question) {
   questionSpace.innerText = question.question;
+  question.answers.forEach(answer => {
+    let button = document.createElement("button");
+    button.innerText = answer.text;
+    button.classList.add("btn");
+    if (answer.correct) {
+      button.dataset.correct = answer.correct;
+    }
+    button.addEventListener("click", selectAnswer);
+    answerShow.appendChild(button);
+  })
+}
+
+function resetArea() {
+  nextButton.classList.add("hide");
+  while (answerShow.firstChild) {
+    answerShow.removeChild(answerShow.firstChild);
+  }
 }
 
 function selectAnswer() {
