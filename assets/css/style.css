@@ -1,3 +1,4 @@
+/* LOGO AND TEXT */
 .logo-text {
     text-align: center;
     font-size: 2.5rem;
@@ -7,4 +8,32 @@
     height: 10%;
     width: 10%;
     padding-right: 1%;
+}
+
+/* GAME AREA */
+.quiz-box {
+    width: 80%;
+    padding: 10%;
+    background-color: #53D397;
+    border-radius: 2%;
+}
+
+.btn {
+    font-size: 2em;
+    color: #F7F9FF;
+    background-color: #FF7A5C;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 20px 0px;
+    gap: 15px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
 }
