@@ -31,6 +31,8 @@ body {
     background-color: #FF7A5C;
 }
 
+
+
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -43,6 +45,11 @@ body {
     justify-content: center;
     align-items: center;
     gap: 3%;
+}
+
+.rules {
+    font-size: 1.3em;
+    text-align: center;
 }
 
 .hide {
