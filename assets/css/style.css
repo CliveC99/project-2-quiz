@@ -45,6 +45,10 @@ body {
     gap: 3%;
 }
 
+.hide {
+    display: none;
+  }
+
 
 /* BREAKPOINTS */
 
