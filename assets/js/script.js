@@ -5,6 +5,7 @@ let answerShow = document.getElementById("answer-buttons");
 let rules = document.getElementById("rules-info");
 let rulesButton = document.getElementById("rules-btn");
 let nextButton = document.getElementById("next-btn");
+let viewResults = document.getElementById("results-btn");
 
 
 let shuffleQuestions, currentQuestion;
@@ -68,7 +69,11 @@ function selectAnswer(event) {
   Array.from(answerShow.children).forEach(button => {
     setStatusClass(button, button.dataset.correct);
   })
-  nextButton.classList.remove("hide");
+  if (shuffleQuestions.length > currentQuestion + 1) {
+    nextButton.classList.remove("hide");
+  } else {
+    viewResults.classList.remove("hide");
+  }
 }
 
 function setStatusClass(element, correct) {
