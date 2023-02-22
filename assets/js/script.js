@@ -6,6 +6,7 @@ let rules = document.getElementById("rules-info");
 let rulesButton = document.getElementById("rules-btn");
 let nextButton = document.getElementById("next-btn");
 let viewResults = document.getElementById("results-btn");
+let resultsInfo = document.getElementById("view-results");
 
 
 let shuffleQuestions, currentQuestion;
@@ -16,6 +17,7 @@ nextButton.addEventListener('click', () => {
   currentQuestion++
   nextQuestion()
 })
+viewResults.addEventListener("click", viewResultsInfo);
 
 
 
@@ -34,6 +36,12 @@ function startQuiz() {
 function rulesInfo() {
   rulesButton.classList.add("hide");
   rules.classList.remove("hide");
+}
+
+function viewResultsInfo() {
+  resultsInfo.classList.remove("hide");
+  startButton.classList.remove("hide");
+  questionArea.classList.add("hide");
 }
 
 function nextQuestion() {
