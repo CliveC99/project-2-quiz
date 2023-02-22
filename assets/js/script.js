@@ -11,14 +11,18 @@ let shuffleQuestions, currentQuestion;
 
 startButton.addEventListener("click", startQuiz);
 rulesButton.addEventListener("click", rulesInfo);
-nextButton.addEventListener("click", nextQuestion);
+nextButton.addEventListener('click', () => {
+  currentQuestion++
+  nextQuestion()
+})
+
 
 
 
 function startQuiz() {
     startButton.classList.add("hide");
     questionArea.classList.remove("hide");
-    shuffleQuestions = listOfQuestions.sort(() => Math.random() - ".5");
+    shuffleQuestions = listOfQuestions.sort(() => Math.random() - '.5');
     currentQuestion = 0;
     rules.classList.add("hide");
     rulesButton.classList.add("hide");
@@ -48,7 +52,7 @@ function showQuestion(question) {
     button.addEventListener("click", selectAnswer);
     answerShow.appendChild(button);
   })
-}
+} 
 
 function resetArea() {
   nextButton.classList.add("hide");
@@ -90,6 +94,24 @@ let listOfQuestions = [
       {text: "Galway", correct: false},
       {text: "Clare", correct: false},
       {text: "Sligo", correct: false}
+    ]
+  },
+  {
+    question: "What is the smallest county in Ireland?",
+    answers: [
+      {text: "Roscommon", correct: false},
+      {text: "Offaly", correct: false},
+      {text: "Meath", correct: false},
+      {text: "Louth", correct: true}
+    ]
+  },
+  {
+    question: "What currency is used in Ireland?",
+    answers: [
+      {text: "Dollar", correct: false},
+      {text: "Krone", correct: false},
+      {text: "Euro", correct: true},
+      {text: "Pound", correct: false}
     ]
   }
 ]
