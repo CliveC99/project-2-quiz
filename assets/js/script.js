@@ -57,9 +57,29 @@ function resetArea() {
   }
 }
 
-function selectAnswer() {
-
+function selectAnswer(event) {
+  let selectButton = event.target;
+  let correct = selectButton.dataset.correct;
+  setStatusClass(document.body, correct);
+  Array.from(answerShow.children).forEach(button => {
+    setStatusClass(button, button.dataset.correct);
+  })
 }
+
+function setStatusClass(element, correct) {
+  clearStatus(element);
+  if (correct) {
+    element.classList.add("correct");
+  } else {
+    element.classList.add("wrong");
+  }
+}
+
+function clearStatus(element) {
+    element.classList.remove("correct");
+    element.classList.remove("wrong");
+}
+
 
 let listOfQuestions = [
   {
