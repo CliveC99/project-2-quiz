@@ -64,6 +64,7 @@ function selectAnswer(event) {
   Array.from(answerShow.children).forEach(button => {
     setStatusClass(button, button.dataset.correct);
   })
+  nextButton.classList.remove("hide");
 }
 
 function setStatusClass(element, correct) {
