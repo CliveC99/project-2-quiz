@@ -31,6 +31,8 @@ function startQuiz() {
     rulesButton.classList.add("hide");
     nextButton.classList.remove("hide");
     nextQuestion();
+    resultsInfo.classList.add("hide");
+    viewResults.classList.add("hide");
 }
 
 function rulesInfo() {
