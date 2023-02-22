@@ -44,6 +44,7 @@ function viewResultsInfo() {
   resultsInfo.classList.remove("hide");
   startButton.classList.remove("hide");
   questionArea.classList.add("hide");
+  viewResults.classList.add("hide");
 }
 
 function nextQuestion() {
