@@ -83,6 +83,7 @@ function selectAnswer(event) {
   if (shuffleQuestions.length > currentQuestion + 1) {
     nextButton.classList.remove("hide");
   } else {
+    startButton.innerHTML = "Restart"
     viewResults.classList.remove("hide");
   }
 }
