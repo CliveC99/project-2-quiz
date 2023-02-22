@@ -9,6 +9,8 @@ let viewResults = document.getElementById("results-btn");
 let resultsInfo = document.getElementById("view-results");
 
 
+
+
 let shuffleQuestions, currentQuestion;
 
 startButton.addEventListener("click", startQuiz);
@@ -50,6 +52,9 @@ function viewResultsInfo() {
 function nextQuestion() {
   resetArea();
   showQuestion(shuffleQuestions[currentQuestion]);
+  let previousQuestionNo = parseInt(document.getElementById("question-number").innerText);
+  document.getElementById("question-number").innerHTML =  ++previousQuestionNo;
+  
 }
 
 function showQuestion(question) {
