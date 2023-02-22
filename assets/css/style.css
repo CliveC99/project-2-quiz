@@ -61,6 +61,11 @@ body {
     font-size: 1.8em;
 }
 
+#view-results {
+    text-align: center;
+    font-size: 1.8em;
+}
+
 
 /* BREAKPOINTS */
 
