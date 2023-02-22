@@ -21,14 +21,14 @@ body {
 .quiz-box {
     width: 80%;
     padding: 10%;
-    background-color: #53D397;
+    background-color: #1EE494;
     border-radius: 2%;
 }
 
 .btn {
     font-size: 2em;
-    color: #F7F9FF;
-    background-color: #FF7A5C;
+    background-color: #fff;
+    color: #Ff5f2d;
 }
 
 
