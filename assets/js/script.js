@@ -75,6 +75,7 @@ function showQuestion(question) {
 } 
 
 function resetArea() {
+  clearStatus(document.body);
   nextButton.classList.add("hide");
   while (answerShow.firstChild) {
     answerShow.removeChild(answerShow.firstChild);
