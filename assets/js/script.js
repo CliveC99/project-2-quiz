@@ -16,13 +16,13 @@ let shuffleQuestions, currentQuestion;
 startButton.addEventListener("click", startQuiz);
 rulesButton.addEventListener("click", rulesInfo);
 nextButton.addEventListener('click', () => {
-  currentQuestion++
-  nextQuestion()
-})
+  currentQuestion++;
+  nextQuestion();
+});
 viewResults.addEventListener("click", viewResultsInfo);
 restartQuiz.addEventListener("click", () => {
-  window.location="../index.html"
-} )
+  window.location="../index.html";
+});
 
 
 
@@ -71,7 +71,7 @@ function showQuestion(question) {
     }
     button.addEventListener("click", selectAnswer);
     answerShow.appendChild(button);
-  })
+  });
 } 
 
 function resetArea() {
@@ -88,7 +88,7 @@ function selectAnswer(event) {
   setStatusClass(document.body, correct);
   Array.from(answerShow.children).forEach(button => {
     setStatusClass(button, button.dataset.correct);
-  })
+  });
   if (shuffleQuestions.length > currentQuestion + 1) {
     nextButton.classList.remove("hide");
   } else {
@@ -139,4 +139,4 @@ let listOfQuestions = [
       {text: "Pound", correct: false}
     ]
   }
-]
+];
