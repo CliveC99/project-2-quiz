@@ -7,7 +7,7 @@ let rulesButton = document.getElementById("rules-btn");
 let nextButton = document.getElementById("next-btn");
 let viewResults = document.getElementById("results-btn");
 let resultsInfo = document.getElementById("view-results");
-
+let restartQuiz = document.getElementById("restart-quiz");
 
 
 
@@ -20,6 +20,9 @@ nextButton.addEventListener('click', () => {
   nextQuestion()
 })
 viewResults.addEventListener("click", viewResultsInfo);
+restartQuiz.addEventListener("click", () => {
+  window.location="../index.html"
+} )
 
 
 
@@ -44,7 +47,7 @@ function rulesInfo() {
 
 function viewResultsInfo() {
   resultsInfo.classList.remove("hide");
-  startButton.classList.remove("hide");
+  restartQuiz.classList.remove("hide");
   questionArea.classList.add("hide");
   viewResults.classList.add("hide");
 }
@@ -88,7 +91,6 @@ function selectAnswer(event) {
   if (shuffleQuestions.length > currentQuestion + 1) {
     nextButton.classList.remove("hide");
   } else {
-    startButton.innerHTML = "Restart"
     viewResults.classList.remove("hide");
   }
 }
