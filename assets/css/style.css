@@ -80,9 +80,26 @@ body {
     font-size: 1.5em;
     position: relative;
     margin: 2%;
-    
+
 }
 
+body.correct {
+    background: #00ff1a;
+}
+
+body.wrong {
+    background: #Ff0000;
+}
+
+.btn.correct {
+    background: #00ff1a;
+    color: #fff;
+}
+
+.btn.wrong {
+    background: #Ff0000;
+    color: #fff;
+}
 
 /* BREAKPOINTS */
 
