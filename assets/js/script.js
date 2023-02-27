@@ -138,5 +138,14 @@ let listOfQuestions = [
       {text: "Euro", correct: true},
       {text: "Pound", correct: false}
     ]
+  },
+  {
+    question: "What is the capitil of Ireland?",
+    answers: [
+      {text: "Limrick", correct: false},
+      {text: "Galway", correct: false},
+      {text: "Kerry", correct: false},
+      {text: "Dublin", correct: true}
+    ]
   }
 ];
