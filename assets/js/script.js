@@ -8,7 +8,7 @@ let nextButton = document.getElementById("next-btn");
 let viewResults = document.getElementById("results-btn");
 let resultsInfo = document.getElementById("view-results");
 let restartQuiz = document.getElementById("restart-quiz");
-let restults = document.getElementById("view-results");
+let results = document.getElementById("view-results");
 let finalScore = 0;
 
 
@@ -52,7 +52,7 @@ function viewResultsInfo() {
   restartQuiz.classList.remove("hide");
   questionArea.classList.add("hide");
   viewResults.classList.add("hide");
-  restults.innerText = `Well done! You scored: 
+  results.innerText = `Well done! You scored: 
   ${finalScore}/10 
   
   Hit the restart button to take the quiz again.`;
@@ -63,7 +63,6 @@ function nextQuestion() {
   showQuestion(shuffleQuestions[currentQuestion]);
   let previousQuestionNo = parseInt(document.getElementById("question-number").innerText);
   document.getElementById("question-number").innerHTML =  ++previousQuestionNo;
-  finalScore++;
 }
 
 function showQuestion(question) {
@@ -92,10 +91,14 @@ function resetArea() {
 function selectAnswer(event) {
   let selectButton = event.target;
   let correct = selectButton.dataset.correct;
+  if (correct) {
+    finalScore++;
+  }
   setStatusClass(document.body, correct);
   Array.from(answerShow.children).forEach(button => {
     setStatusClass(button, button.dataset.correct);
   });
+
   if (shuffleQuestions.length > currentQuestion + 1) {
     nextButton.classList.remove("hide");
   } else {
