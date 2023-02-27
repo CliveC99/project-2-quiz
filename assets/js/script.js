@@ -8,6 +8,8 @@ let nextButton = document.getElementById("next-btn");
 let viewResults = document.getElementById("results-btn");
 let resultsInfo = document.getElementById("view-results");
 let restartQuiz = document.getElementById("restart-quiz");
+let restults = document.getElementById("view-results");
+let finalScore = 0;
 
 
 
@@ -50,6 +52,10 @@ function viewResultsInfo() {
   restartQuiz.classList.remove("hide");
   questionArea.classList.add("hide");
   viewResults.classList.add("hide");
+  restults.innerText = `Well done! You scored: 
+  ${finalScore}/10 
+  
+  Hit the restart button to take the quiz again.`;
 }
 
 function nextQuestion() {
@@ -57,7 +63,7 @@ function nextQuestion() {
   showQuestion(shuffleQuestions[currentQuestion]);
   let previousQuestionNo = parseInt(document.getElementById("question-number").innerText);
   document.getElementById("question-number").innerHTML =  ++previousQuestionNo;
-  
+  finalScore++;
 }
 
 function showQuestion(question) {
@@ -81,6 +87,7 @@ function resetArea() {
     answerShow.removeChild(answerShow.firstChild);
   }
 }
+
 
 function selectAnswer(event) {
   let selectButton = event.target;
