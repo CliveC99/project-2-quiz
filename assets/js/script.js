@@ -157,5 +157,59 @@ let listOfQuestions = [
       {text: "Kerry", correct: false},
       {text: "Dublin", correct: true}
     ]
+  },
+  {
+    question: "How many provinces does Ireland have?",
+    answers: [
+      {text: "One", correct: false},
+      {text: "Two", correct: false},
+      {text: "Three", correct: false},
+      {text: "Four", correct: true}
+    ]
+  },
+  {
+    question: "What is the longest river in Ireland?",
+    answers: [
+      {text: "River Shannon", correct: true},
+      {text: "River Barrow", correct: false},
+      {text: "River Nore", correct: false},
+      {text: "River Bann", correct: false}
+    ]
+  },
+  {
+    question: "How many provinces does Ireland have?",
+    answers: [
+      {text: "One", correct: false},
+      {text: "Two", correct: false},
+      {text: "Three", correct: false},
+      {text: "Four", correct: true}
+    ]
+  },
+  {
+    question: "How long is the term of an Irish President?",
+    answers: [
+      {text: "One Year", correct: false},
+      {text: "Three Years", correct: false},
+      {text: "Five Years", correct: false},
+      {text: "Seven Years", correct: true}
+    ]
+  },
+  {
+    question: "The Cliffs of Mohor are in which county?",
+    answers: [
+      {text: "Galway", correct: false},
+      {text: "Kerry", correct: false},
+      {text: "Tipperary", correct: false},
+      {text: "Clare", correct: true}
+    ]
+  },
+  {
+    question: "What street is The Spire on in Dublin?",
+    answers: [
+      {text: "Grafton Strret", correct: false},
+      {text: "O'Connell Street", correct: true},
+      {text: "Moore Street", correct: false},
+      {text: "Dame Street", correct: false}
+    ]
   }
 ];
