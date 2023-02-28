@@ -31,7 +31,7 @@ body {
 }
 
 .btn {
-    font-size: 2em;
+    font-size: 1.5em;
     background-color: #fff;
     color: #Ff5f2d;
 }
@@ -100,6 +100,7 @@ body.wrong {
     background: #Ff0000;
     color: #fff;
 }
+
 
 /* BREAKPOINTS */
 
