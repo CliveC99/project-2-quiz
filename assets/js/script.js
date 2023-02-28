@@ -171,7 +171,7 @@ let listOfQuestions = [
   {
     question: "What county was Michael D Higgins born in?",
     answers: [
-      {text: "Limrick", correct: true},
+      {text: "Limerick", correct: true},
       {text: "Galway", correct: false},
       {text: "Clare", correct: false},
       {text: "Sligo", correct: false}
@@ -198,7 +198,7 @@ let listOfQuestions = [
   {
     question: "What is the capital of Ireland?",
     answers: [
-      {text: "Limrick", correct: false},
+      {text: "Limerick", correct: false},
       {text: "Galway", correct: false},
       {text: "Kerry", correct: false},
       {text: "Dublin", correct: true}
@@ -223,12 +223,12 @@ let listOfQuestions = [
     ]
   },
   {
-    question: "How many provinces does Ireland have?",
+    question: "What is Irelands tallest mountain?",
     answers: [
-      {text: "One", correct: false},
-      {text: "Two", correct: false},
-      {text: "Three", correct: false},
-      {text: "Four", correct: true}
+      {text: "Croagh Patrick", correct: false},
+      {text: "Knocknapeasta", correct: false},
+      {text: "Mangerton", correct: false},
+      {text: "Carrauntoohil", correct: true}
     ]
   },
   {
