@@ -196,7 +196,7 @@ let listOfQuestions = [
     ]
   },
   {
-    question: "What is the capitil of Ireland?",
+    question: "What is the capital of Ireland?",
     answers: [
       {text: "Limrick", correct: false},
       {text: "Galway", correct: false},
