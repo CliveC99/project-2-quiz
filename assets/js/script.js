@@ -14,14 +14,18 @@ let finalScore = 0;
 
 
 let shuffleQuestions, currentQuestion;
-
+// Start Quiz event listener
 startButton.addEventListener("click", startQuiz);
+//Rules Info event listener
 rulesButton.addEventListener("click", rulesInfo);
+// Next Button event listener
 nextButton.addEventListener('click', () => {
   currentQuestion++;
   nextQuestion();
 });
+// Results info event listener
 viewResults.addEventListener("click", viewResultsInfo);
+// Restart quiz event listener (Restart the quiz to the home page)
 restartQuiz.addEventListener("click", () => {
   window.location="../index.html";
 });
