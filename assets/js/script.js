@@ -28,7 +28,12 @@ restartQuiz.addEventListener("click", () => {
 
 
 
-
+/**
+ * Runs when the Start button is clicked.
+ * Shows the questions.
+ * Shuffles the question.
+ * Adds/Hides the buttons required for the quiz.
+ */
 function startQuiz() {
     startButton.classList.add("hide");
     questionArea.classList.remove("hide");
@@ -42,11 +47,20 @@ function startQuiz() {
     viewResults.classList.add("hide");
 }
 
+/**
+ * Adds/Hides the buttons required for the quiz.
+ * Shows the rules info section.
+ */
 function rulesInfo() {
   rulesButton.classList.add("hide");
   rules.classList.remove("hide");
 }
 
+
+/**
+ * Shows the information for the results section.
+ * Adds/Hides the buttons required for the quiz.
+ */
 function viewResultsInfo() {
   resultsInfo.classList.remove("hide");
   restartQuiz.classList.remove("hide");
@@ -58,6 +72,10 @@ function viewResultsInfo() {
   Hit the restart button to take the quiz again.`;
 }
 
+/**
+ * Adds a question counter to the quiz.
+ * Removes the standared buttons from the quiz.
+ */
 function nextQuestion() {
   resetArea();
   showQuestion(shuffleQuestions[currentQuestion]);
@@ -65,6 +83,11 @@ function nextQuestion() {
   document.getElementById("question-number").innerHTML =  ++previousQuestionNo;
 }
 
+/**
+ * Shows the question.
+ * Allows the user to select an answer.
+ * Adds/Hides the buttons required for the quiz.
+ */
 function showQuestion(question) {
   questionSpace.innerText = question.question;
   question.answers.forEach(answer => {
@@ -79,6 +102,11 @@ function showQuestion(question) {
   });
 } 
 
+/**
+ * Clears the previous answered question.
+ * Adds/Hides the buttons required for the quiz.
+ * Removes the standared buttons from the quiz.
+ */
 function resetArea() {
   clearStatus(document.body);
   nextButton.classList.add("hide");
@@ -87,7 +115,11 @@ function resetArea() {
   }
 }
 
-
+/**
+ * Check if the correct answer was selected.
+ * Add a point if the user got the question right for the results section.
+ * Adds/Hides the buttons required for the quiz.
+ */
 function selectAnswer(event) {
   let selectButton = event.target;
   let correct = selectButton.dataset.correct;
@@ -106,6 +138,10 @@ function selectAnswer(event) {
   }
 }
 
+/**
+ * Turns the buttons and background colours depending on the answer selected.
+ * Adds/Hides the buttons required for the quiz.
+ */
 function setStatusClass(element, correct) {
   clearStatus(element);
   if (correct) {
@@ -115,12 +151,17 @@ function setStatusClass(element, correct) {
   }
 }
 
+/**
+ * Resets the colour of the button and background for the next question.
+ */
 function clearStatus(element) {
     element.classList.remove("correct");
     element.classList.remove("wrong");
 }
 
-
+/**
+ * List of questions for the quiz.
+ */
 let listOfQuestions = [
   {
     question: "What county was Michael D Higgins born in?",
