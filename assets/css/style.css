@@ -5,7 +5,7 @@ body {
     background-color: #808283;
 }
 
-/* LOGO AND TEXT */
+/******************************************** LOGO AND TEXT ***********************************/
 .logo-text {
     text-align: center;
     font-size: 2.3rem;
@@ -17,7 +17,7 @@ body {
     padding-right: 1%;
 }
 
-/* GAME AREA */
+/******************************************* GAME AREA ********************************************/
 .quiz-box {
     width: 80%;
     padding: 10%;
@@ -102,9 +102,10 @@ body.wrong {
 }
 
 
-/* BREAKPOINTS */
-
+/****************************************** BREAKPOINTS *****************************************************************/
+/* For devices with a min width of 460px */
 @media only screen and (min-width: 460px) {
+    /* Chanages the position and width of the quiz box */
     .quiz-box {
         position: absolute;
         right: 15%;
@@ -112,8 +113,9 @@ body.wrong {
     }
 }
 
-
+/* For devices with a min width of 767px */
 @media only screen and (min-width: 767px) {
+     /* Chanages the position, width and font size of the quiz box */
     .quiz-box {
         font-size: 2em;
         position: absolute;

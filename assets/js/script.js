@@ -1,3 +1,4 @@
+
 let startButton = document.getElementById("start-btn");
 let questionArea = document.getElementById("question-area");
 let questionSpace = document.getElementById("question");
