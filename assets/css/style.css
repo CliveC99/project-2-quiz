@@ -101,6 +101,12 @@ body.wrong {
     color: #fff;
 }
 
+/***************************************** 404 ERROR PAGE **************************************************************/
+.error-text {
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-align: center;
+}
 
 /****************************************** BREAKPOINTS *****************************************************************/
 /* For devices with a min width of 460px */
