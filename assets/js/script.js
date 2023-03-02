@@ -28,7 +28,7 @@ nextButton.addEventListener('click', () => {
 viewResults.addEventListener("click", viewResultsInfo);
 // Restart quiz event listener (Restart the quiz to the home page)
 restartQuiz.addEventListener("click", () => {
-  window.location="../index.html";
+  window.location="./index.html";
 });
 
 
