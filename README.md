@@ -103,3 +103,61 @@ This quiz is based on questions about Ireland.
      ![Desktop Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677585389/Project%202%20-%20README%20Images/desktop-lighthouse-report_gwlti9.jpg)
      ![Mobile 404 Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834987/Project%202%20-%20README%20Images/404-mobile_dacvjb.jpg)
      ![Desktop 404 Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834991/Project%202%20-%20README%20Images/404-desktop_u3pcc1.jpg)
+
+       # Deployment
+  1. Open up [GitHub.](https://github.com/)
+  2. Click repositories.
+  3. Select the repositories you would like to deploy.
+  4. Click on the settings page.
+  5. Select pages.
+  6. Under source, select "Deploy from branch".
+  7. Under branch, select "main".
+  8. Select "/ root".
+  9. Select save.
+  10. Within a couple of minutes, your site will be deployed.
+  11. Deployed website [here.](https://clivec99.github.io/project-2-quiz/)
+
+  # **Git Commits**
+   - I structured my git commits whenever I would add, change or update code.
+   - I did this by using:
+   1. git status
+   2. git add (file name)
+   3. git commit -m (message)
+   4. git push.
+  ![Git Commits](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677835200/Project%202%20-%20README%20Images/git-commits_nbali8.jpg)
+
+  # Bugs and Fixes
+  ## **Question counter not resetting** 
+- I was having issues where the question counter was not resetting back to 0 when the quiz ended.
+   - I solved this by `window.location="./index.html";`. I got the help from [here.](https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript)
+
+   ## **Results counter showing every answer as correct**
+- I was having issues where the result counter was showing every answer as being correct.
+   - I solved this by adding `finalScore++;` to  `if (correct)` inside of the `selectAnswer` function.
+
+   ## **404 Error page showing**
+- I was having issues where a 404 Error Page would show when the user pressed restart.
+   - I solved this by changing the file path from `"../index.html"` to `"./index.html"`.
+
+   ## **Grid issues**
+- I was having issues while using "Grid" within CSS for the placement of the answer buttons.
+   - I solved this with the help of [here.](https://www.w3schools.com/css/css_grid.asp)
+
+   # Added Items
+     ## **FavIcon**
+  - I used FavIcon to add the logo to the top of the tab.
+  - I used a shamrock to represent Ireland.
+  - I got the image from [here.](https://www.clipartmax.com/png/middle/5-57528_shamrock-clip-art-clover-transparent.png)
+
+  ![FavIcon](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677836271/Project%202%20-%20README%20Images/android-chrome-192x192_y84vcs.png)
+  ![FavIcon Tab View](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677836155/Project%202%20-%20README%20Images/favicon_qr8w4u.jpg)
+
+ ## **Cloudinary** 
+  - I used cloudinary for my README images.
+  - I found this would help keep everything tidy.
+  - Check out [Cloudinary here.](https://cloudinary.com/ip/gr-sea-gg-brand-home-base?utm_source=google&utm_medium=search&utm_campaign=goog_selfserve_brand_wk22_replicate_core_branded_keyword&utm_term=1329&campaignid=17601148700&adgroupid=141182782954&keyword=cloudinary&device=c&matchtype=e&adposition=&gclid=Cj0KCQiA_P6dBhD1ARIsAAGI7HBiqtoSkOp8dv2sdvprV-d3z6NkMdyK0guRRH98shquMJ7QiCtVbJQaAnvIEALw_wcB)
+  - I created an account.
+  - I created a folder and uploaded my images.
+  - I copied the URL and placed it into my code.
+
+    ![Cloudinary](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677836414/Project%202%20-%20README%20Images/cloudinary_bbbkye.jpg)
