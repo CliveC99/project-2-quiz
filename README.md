@@ -115,7 +115,7 @@ This quiz is based on questions about Ireland.
   8. Select "/ root".
   9. Select save.
   10. Within a couple of minutes, your site will be deployed.
-  11. Deployed website [here.](https://clivec99.github.io/project-2-quiz/)
+  11. Deployed website [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/)
 
 # **Git Commits**
    - I structured my git commits whenever I would add, change or update code.
@@ -129,7 +129,7 @@ This quiz is based on questions about Ireland.
 # Bugs and Fixes
    ## **Question counter not resetting** 
 - I was having issues where the question counter was not resetting back to 0 when the quiz ended.
-   - I solved this by `window.location="./index.html";`. I got the help from [here.](https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript)
+   - I solved this by `window.location="./index.html";`. I got the help from [Stack Overflow.](https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript)
 
    ## **Results counter showing every answer as correct**
 - I was having issues where the result counter was showing every answer as being correct.
@@ -141,13 +141,13 @@ This quiz is based on questions about Ireland.
 
    ## **Grid issues**
 - I was having issues while using "Grid" within CSS for the placement of the answer buttons.
-   - I solved this with the help of [here.](https://www.w3schools.com/css/css_grid.asp)
+   - I solved this with the help of [W3S Schools.](https://www.w3schools.com/css/css_grid.asp)
 
 # Added Items
    ## **FavIcon**
   - I used FavIcon to add the logo to the top of the tab.
   - I used a shamrock to represent Ireland.
-  - I got the image from [here.](https://www.clipartmax.com/png/middle/5-57528_shamrock-clip-art-clover-transparent.png)
+  - I got the image from [Clip Art Max.](https://www.clipartmax.com/png/middle/5-57528_shamrock-clip-art-clover-transparent.png)
 
   ![FavIcon](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677836271/Project%202%20-%20README%20Images/android-chrome-192x192_y84vcs.png)
   ![FavIcon Tab View](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677836155/Project%202%20-%20README%20Images/favicon_qr8w4u.jpg)
@@ -188,11 +188,11 @@ This quiz is based on questions about Ireland.
   
 # Credits
   ## **Media**
-  - The logo was taken from [Here.](https://www.clipartmax.com/png/middle/5-57528_shamrock-clip-art-clover-transparent.png)
+  - The logo was taken from [Clip Art Max.](https://www.clipartmax.com/png/middle/5-57528_shamrock-clip-art-clover-transparent.png)
 
   ## **Other**
-  - I got help with the grid inside of CSS from [here.](https://www.w3schools.com/css/css_grid.asp)
-  - I got help with the button hover from [here.](https://www.w3schools.com/css/css_grid.asp)
-  - I got help with the return to home page from [here](https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript)
-  - The table of contents idea was taken from [here.](https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki) I worked around it to make it work for mine.
+  - I got help with the grid inside of CSS from [W3S Schools.](https://www.w3schools.com/css/css_grid.asp)
+  - I got help with the button hover from [W3S Schools.](https://www.w3schools.com/css/css_grid.asp)
+  - I got help with the return to home page from [Stack Overflow](https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript)
+  - The table of contents idea was taken from [Stack Overflow.](https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki) I worked around it to make it work for mine.
   - This project would not be possible without the help of my mentor, my friends, and my facilitator.
