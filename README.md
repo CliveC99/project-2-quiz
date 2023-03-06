@@ -26,7 +26,7 @@ This quiz is based on questions about Ireland.
 
 
 
-  # UX
+# UX
 ### **User Goals** 
 - As a user, I want to answer questions.
 - As a user, I want to test my knowledge.
@@ -87,7 +87,7 @@ This quiz is based on questions about Ireland.
   - The smallest screen size is recommended at 320px x 745px.
   - I asked for feedback in the "Peer-code-review" channel on slack. This brought a few bugs to my knowledge.
 
- # Validation
+# Validation
   - I used [W3S HTML Checker](https://validator.w3.org/) for testing my HTML code.
   - I used [W3S CSS Checker](https://jigsaw.w3.org/css-validator/) for testing my CSS code.
   - I used [JS Hint](https://jshint.com/) for testing my JavaScript code.
@@ -97,14 +97,14 @@ This quiz is based on questions about Ireland.
     ![CSS Validation](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834603/Project%202%20-%20README%20Images/css-validation_dkrew7.jpg)
     ![JS Hint Validation](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834600/Project%202%20-%20README%20Images/js-hint-validation_akqb8r.jpg)
 
-     # LightHouse Testing
-     - Below are the results for the Home Page Lighthouse tests for mobile and desktop.
-     ![Mobile Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677585389/Project%202%20-%20README%20Images/mobile-lighthouse-report_k4cddm.jpg)
-     ![Desktop Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677585389/Project%202%20-%20README%20Images/desktop-lighthouse-report_gwlti9.jpg)
-     ![Mobile 404 Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834987/Project%202%20-%20README%20Images/404-mobile_dacvjb.jpg)
-     ![Desktop 404 Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834991/Project%202%20-%20README%20Images/404-desktop_u3pcc1.jpg)
+# LightHouse Testing
+  - Below are the results for the Home Page Lighthouse tests for mobile and desktop.
+    ![Mobile Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677585389/Project%202%20-%20README%20Images/mobile-lighthouse-report_k4cddm.jpg)
+    ![Desktop Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677585389/Project%202%20-%20README%20Images/desktop-lighthouse-report_gwlti9.jpg)
+    ![Mobile 404 Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834987/Project%202%20-%20README%20Images/404-mobile_dacvjb.jpg)
+    ![Desktop 404 Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834991/Project%202%20-%20README%20Images/404-desktop_u3pcc1.jpg)
 
-       # Deployment
+# Deployment
   1. Open up [GitHub.](https://github.com/)
   2. Click repositories.
   3. Select the repositories you would like to deploy.
@@ -117,7 +117,7 @@ This quiz is based on questions about Ireland.
   10. Within a couple of minutes, your site will be deployed.
   11. Deployed website [here.](https://clivec99.github.io/project-2-quiz/)
 
-  # **Git Commits**
+# **Git Commits**
    - I structured my git commits whenever I would add, change or update code.
    - I did this by using:
    1. git status
@@ -126,8 +126,8 @@ This quiz is based on questions about Ireland.
    4. git push.
   ![Git Commits](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677835200/Project%202%20-%20README%20Images/git-commits_nbali8.jpg)
 
-  # Bugs and Fixes
-  ## **Question counter not resetting** 
+# Bugs and Fixes
+   ## **Question counter not resetting** 
 - I was having issues where the question counter was not resetting back to 0 when the quiz ended.
    - I solved this by `window.location="./index.html";`. I got the help from [here.](https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript)
 
@@ -143,8 +143,8 @@ This quiz is based on questions about Ireland.
 - I was having issues while using "Grid" within CSS for the placement of the answer buttons.
    - I solved this with the help of [here.](https://www.w3schools.com/css/css_grid.asp)
 
-   # Added Items
-     ## **FavIcon**
+# Added Items
+   ## **FavIcon**
   - I used FavIcon to add the logo to the top of the tab.
   - I used a shamrock to represent Ireland.
   - I got the image from [here.](https://www.clipartmax.com/png/middle/5-57528_shamrock-clip-art-clover-transparent.png)
@@ -152,7 +152,7 @@ This quiz is based on questions about Ireland.
   ![FavIcon](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677836271/Project%202%20-%20README%20Images/android-chrome-192x192_y84vcs.png)
   ![FavIcon Tab View](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677836155/Project%202%20-%20README%20Images/favicon_qr8w4u.jpg)
 
- ## **Cloudinary** 
+   ## **Cloudinary** 
   - I used cloudinary for my README images.
   - I found this would help keep everything tidy.
   - Check out [Cloudinary here.](https://cloudinary.com/ip/gr-sea-gg-brand-home-base?utm_source=google&utm_medium=search&utm_campaign=goog_selfserve_brand_wk22_replicate_core_branded_keyword&utm_term=1329&campaignid=17601148700&adgroupid=141182782954&keyword=cloudinary&device=c&matchtype=e&adposition=&gclid=Cj0KCQiA_P6dBhD1ARIsAAGI7HBiqtoSkOp8dv2sdvprV-d3z6NkMdyK0guRRH98shquMJ7QiCtVbJQaAnvIEALw_wcB)
@@ -161,3 +161,38 @@ This quiz is based on questions about Ireland.
   - I copied the URL and placed it into my code.
 
     ![Cloudinary](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677836414/Project%202%20-%20README%20Images/cloudinary_bbbkye.jpg)
+
+
+  
+   ## **404 Error  Page**
+  - I decided to create an Error Page for my quiz.
+  - I designed the page the same as the background for my quiz.
+  - This mean the user has the option to go back to the home page of the quiz.
+  - Check out the [404 Error Page.](https://clivec99.github.io/project-2-quiz/404.html)
+
+![404 Error Page Laptop View](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678104561/Project%202%20-%20README%20Images/404-quiz_gzgdx2.jpg)
+
+# **Features To Be Added**
+- Add difficulty levels to the quiz.
+- Add more questions.
+- Add a username section.
+- Add a highscore leaderboard.
+
+# **Tools Used**
+  - I used [Am I Responsive?](https://ui.dev/amiresponsive) to check was the website responsive on devices.
+  - I used [Balsamiq](https://balsamiq.com/) for creating the wireframes.
+  - I used [Google Fonts](https://fonts.google.com/) for the font.
+  - I used [Favicon](https://favicon.io/) to create the tab icon.
+  - I used [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/overview/) to debug the website and view different breakpoints.
+
+  
+# Credits
+  ## **Media**
+  - The logo was taken from [Here.](https://www.clipartmax.com/png/middle/5-57528_shamrock-clip-art-clover-transparent.png)
+
+  ## **Other**
+  - I got help with the grid inside of CSS from [here.](https://www.w3schools.com/css/css_grid.asp)
+  - I got help with the button hover from [here.](https://www.w3schools.com/css/css_grid.asp)
+  - I got help with the return to home page from [here](https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript)
+  - The table of contents idea was taken from [here.](https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki) I worked around it to make it work for mine.
+  - This project would not be possible without the help of my mentor, my friends, and my facilitator.
