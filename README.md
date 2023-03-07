@@ -174,6 +174,10 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 - I was having issues while using "Grid" within CSS for the placement of the answer buttons.
    - I solved this with the help of [W3S Schools.](https://www.w3schools.com/css/css_grid.asp)
 
+  ## **Answers going outside the quiz box**
+- I was having issues where some of the question were going outside the quiz box on smaller devices.
+  - I solved this by adding stacking the answers above each other on smaller devices.
+  
 # Added Items
    ## **FavIcon**
   - I used FavIcon to add the logo to the top of the tab.
