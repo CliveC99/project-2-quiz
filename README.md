@@ -20,6 +20,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   - <p><a href="#wireframes">WireFrames</a></p>
   - <p><a href="#responsive-test">Responsive Test</a></p>  
   - <p><a href="#features">Features</a></p>
+  - <p><a href="#features-to-be-added">Features To Be Added</a></p>
   - <p><a href="#manual-testing">Manual Testing</a></p>
   - <p><a href="#validation">Validation</a></p>
   - <p><a href="#lighthouse-testing">LightHouse Testing</a></p>
@@ -29,7 +30,6 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   - <p><a href="#git-commits">Git Commits</a></p>
   - <p><a href="#bugs-and-fixes">Bugs and Fixes</a></p>
   - <p><a href="#added-items">Added Items</a></p>
-  - <p><a href="#features-to-be-added">Features To Be Added</a></p>
   - <p><a href="#tools-used">Tools Used</a></p>
   - <p><a href="#credits">Credits</a></p>
  
@@ -93,6 +93,10 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 * The background turns red along with the buttons if the answer is wrong.
 * The background turns green along with the button if the answer is correct.
 
+![Rules Information](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678205245/Project%202%20-%20README%20Images/rules-info_dw69zt.jpg)
+
+![Results Information](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678205243/Project%202%20-%20README%20Images/results-info_frrbb6.jpg)
+
 # Manual Testing 
   - From the start, the quiz was tested in different browsers (Chrome, Edge and Opera), While using dev tools. This was to make sure everything would run smoothly.
   - I was constantly testing the website on my phone to make sure everything looked good and worked as it should. (Xiaomi Mi 10T Pro)
@@ -109,6 +113,12 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
    | Restart Button | Return Home   | 404 Error Page |
    | Next Button    | Next Question | Next Question Shown |
    
+
+   # **Features To Be Added**
+  - Add difficulty levels to the quiz.
+  - Add more questions.
+  - Add a username section.
+  - Add a highscore leaderboard.
   
 
 # Validation
@@ -220,11 +230,6 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 
 ![404 Error Page Laptop View](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678104561/Project%202%20-%20README%20Images/404-quiz_gzgdx2.jpg)
 
-# **Features To Be Added**
-- Add difficulty levels to the quiz.
-- Add more questions.
-- Add a username section.
-- Add a highscore leaderboard.
 
 # **Tools Used**
   - I used [Am I Responsive?](https://ui.dev/amiresponsive) to check was the website responsive on devices.
