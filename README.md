@@ -24,6 +24,8 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   - <p><a href="#validation">Validation</a></p>
   - <p><a href="#lighthouse-testing">LightHouse Testing</a></p>
   - <p><a href="#deployment">Deployment</a></p>
+  - <p><a href="#cloning">Cloning</a></p>
+  - <p><a href="#forking">Forking</a></p>
   - <p><a href="#git-commits">Git Commits</a></p>
   - <p><a href="#bugs-and-fixes">Bugs and Fixes</a></p>
   - <p><a href="#added-items">Added Items</a></p>
@@ -94,6 +96,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   - I tested that the text was easily readable using the text contrast feature in dev tools.
   - The smallest screen size is recommended at 320px x 745px.
   - I asked for feedback in the "Peer-code-review" channel on slack. This brought a few bugs to my knowledge.
+  
 
 # Validation
   - I used [W3S HTML Checker](https://validator.w3.org/) for testing my HTML code.
@@ -124,6 +127,26 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   9. Select save.
   10. Within a couple of minutes, your site will be deployed.
   11. Deployed website [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/)
+
+# Cloning
+1. Open up the repository [Ireland's Quiz.](https://github.com/CliveC99/project-2-quiz)
+2. Above the list of files click "Code".
+3. Click if you would like to clone as "HTTPS", "SSH", or "GitHub CLI".
+4. Once selected press copy.
+5. Open Git Bash.
+6. Change the directory to where you want the clone to appear.
+7. Paste in the link you copied in step 4. (This is the line for my repository): <br>
+  `$ git clone https://github.com/CliveC99/project-2-quiz.git`
+8. Press enter and the clone will happen.
+
+# Forking
+1. Open up the repository [Ireland's Quiz.](https://github.com/CliveC99/project-2-quiz)
+2. Locate the fork button at the top right.
+3. Select an owner and repository name.
+4. Add a description (optional).
+5. Click "Create fork".
+6. The repository should appear in your repositories now.
+
 
 # **Git Commits**
    - I structured my git commits whenever I would add, change or update code.
