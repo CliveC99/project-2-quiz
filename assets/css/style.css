@@ -111,24 +111,19 @@ body.wrong {
 /****************************************** BREAKPOINTS *****************************************************************/
 /* For devices with a min width of 460px */
 @media only screen and (min-width: 460px) {
+
     /* Chanages the position and width of the quiz box */
     .quiz-box {
         position: absolute;
         right: 15%;
         width: 50%;
     }
-
-    .btn-grid {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        margin: 20px 0px;
-        gap: 15px;
-    }
 }
 
 /* For devices with a min width of 767px */
 @media only screen and (min-width: 767px) {
-     /* Chanages the position, width and font size of the quiz box */
+
+    /* Chanages the position, width and font size of the quiz box */
     .quiz-box {
         font-size: 2em;
         position: absolute;
@@ -136,6 +131,12 @@ body.wrong {
         width: 50%;
     }
 
+}
+
+/* For devices with a min width of 1279px */
+@media only screen and (min-width: 1279px) {
+
+    /* Chanages the answers buttons to be stacked side by side  */
     .btn-grid {
         display: grid;
         grid-template-columns: repeat(2, auto);
