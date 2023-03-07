@@ -27,6 +27,7 @@ nextButton.addEventListener('click', () => {
 // Results info event listener
 viewResults.addEventListener("click", viewResultsInfo);
 // Restart quiz event listener (Restart the quiz to the home page)
+// Help from here: https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript
 restartQuiz.addEventListener("click", () => {
   window.location="./index.html";
 });
