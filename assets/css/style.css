@@ -35,13 +35,13 @@ body {
     background-color: #fff;
     color: #Ff5f2d;
 }
-
+ /* Help from https://dev.to/webdeasy/top-20-css-buttons-animations-f41 */
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-
+/* Help from https://www.w3schools.com/css/css_grid.asp */
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(1, auto);
