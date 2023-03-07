@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Quiz Page">
+        <!--Link between HTML and CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-
+        <!-- Fav Icon Logo -->   
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
@@ -26,6 +27,7 @@
     <main>
         <!-- GAME AREA -->
         <div class="quiz-box">
+        <!--Question area / Answer button area-->
             <section id="question-area" class="hide">
                 <p id="question-text">Question: <span id="question-number">0</span></p>
                 <h2 id="question">Question:</h2>
@@ -36,10 +38,10 @@
                     <button class="btn">Answer 4</button>
                 </div>
             </section>
-
+        <!-- Results Area -->
             <div id="view-results" class="hide">
             </div>
-
+        <!--Rules information -->
             <section id="rules-info" class="rules hide">
                 <h3>Welcome to the quiz! <br> The quiz is based on Ireland. There is 10 questions. <br> Can you get
                     10/10?</h3>
@@ -52,7 +54,7 @@
                 </ol>
                 Click the start button.
             </section>
-
+        <!-- Buttons for the quiz to work -->
             <div class="controls">
                 <button id="start-btn" class="btn">Start</button>
                 <button id="rules-btn" class="btn">Rules</button>
@@ -63,7 +65,7 @@
         </div>
 
     </main>
-
+    <!-- Link between HTML and JS files -->
     <script src="assets/js/script.js"></script>
 </body>
 
