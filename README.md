@@ -1,9 +1,18 @@
 # Ireland's Quiz
 This quiz is based on questions about Ireland.
 
+I created this quiz as a fun little game to test your knowledge on Ireland.
+
+The quiz has 10 questions that show up in random order each time. 
+
+Each question has 4 button options for answers. If you select the correct answer the background and answer button turn green. But if you select the wrong answer the background and answer buttons turn red.
+
+Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html)
+
+
 ### **Disclaimer if you would like to open any links in a new tab use `Ctrl` and click the link.**
 
-![Home Page](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677585389/Project%202%20-%20README%20Images/am-i-responive_fhdndx.jpg)
+![Home Page](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678186337/Project%202%20-%20README%20Images/am-i-responive_dsvw1s.jpg)
 
 # Table of Contents   
   - <p><a href="#ux">UX</a></p>
@@ -28,17 +37,16 @@ This quiz is based on questions about Ireland.
 
 # UX
 ### **User Goals** 
-- As a user, I want to answer questions.
-- As a user, I want to test my knowledge.
-- As a user, I want to beat my score.
-- As a user, I want to use the quiz without bugs.
-- As a user, I want to be able to view the quiz on any device.
+- As a user, I want to answer questions so I can test my knowledge.
+- As a user, I want to use the quiz without bugs so the quiz runs smoothly.
+- As a user, I want to be able to view the quiz on any device so I can change device.
 
 ### **Site Owner Goals**
-- I want to be able to update the quiz.
+- As the site owner, I want to be able to update the quiz so returning users will have new questions.
 
 ### **Returning User**
-- I want to beat my score.
+- As a returning user, I want to try and beat my score.
+
 
 # Design
 ### **Colours**
@@ -69,7 +77,7 @@ This quiz is based on questions about Ireland.
 ![WireFrames](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677750087/Project%202%20-%20README%20Images/wireframes-all_i7nlun.jpg) 
 
 # Responsive Test
-![Responsive Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677585389/Project%202%20-%20README%20Images/am-i-responive_fhdndx.jpg) 
+![Responsive Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678186337/Project%202%20-%20README%20Images/am-i-responive_dsvw1s.jpg) 
 
 # Features 
 * Start Button - The start button brings up the questions.
