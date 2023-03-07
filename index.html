@@ -16,52 +16,53 @@
 
 <body>
     <header>
-    <!-- LOGO AND TEXT -->
-    <h1 class="logo-text">
-        <img class="logo" src="assets/images/logo.png" alt="Logo"> Ireland's Quiz
-    </h1>
+        <!-- LOGO AND TEXT -->
+        <h1 class="logo-text">
+            <img class="logo" src="assets/images/logo.png" alt="Logo"> Ireland's Quiz
+        </h1>
     </header>
 
 
-<main>
-    <!-- GAME AREA -->
-    <div class="quiz-box">
-        <div id="question-area" class="hide">
-            <p id="question-text">Question: <span id="question-number">0</span></p>
-            <div id="question">Question:</div>
-            <div id="answer-buttons" class="btn-grid">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
+    <main>
+        <!-- GAME AREA -->
+        <div class="quiz-box">
+            <section id="question-area" class="hide">
+                <p id="question-text">Question: <span id="question-number">0</span></p>
+                <h2 id="question">Question:</h2>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+            </section>
+
+            <div id="view-results" class="hide">
+            </div>
+
+            <section id="rules-info" class="rules hide">
+                <h3>Welcome to the quiz! <br> The quiz is based on Ireland. There is 10 questions. <br> Can you get
+                    10/10?</h3>
+                <ol>
+                    <li>Click Start.</li>
+                    <li>A question will appear with 4 answers below.</li>
+                    <li>Click the correct answer.</li>
+                    <li>One you answer the question click the next button.</li>
+                    <li>Once you answer all 10 questions, your result will be shown.</li>
+                </ol>
+                Click the start button.
+            </section>
+
+            <div class="controls">
+                <button id="start-btn" class="btn">Start</button>
+                <button id="rules-btn" class="btn">Rules</button>
+                <button id="next-btn" class="btn hide">Next</button>
+                <button id="results-btn" class="btn hide">Results</button>
+                <button id="restart-quiz" class="btn hide">Restart</button>
             </div>
         </div>
 
-        <div id="view-results" class="hide">
-        </div>
-
-        <div id="rules-info" class="rules hide">
-            Welcome to the quiz! <br> The quiz is based on Ireland. There is 10 questions. <br> Can you get 10/10?
-            <ol>
-                <li>Click Start.</li>
-                <li>A question will appear with 4 answers below.</li>
-                <li>Click the correct answer.</li>
-                <li>One you answer the question click the next button.</li>
-                <li>Once you answer all 10 questions, your result will be shown.</li>
-            </ol>
-            Click the start button.
-        </div>
-
-        <div class="controls">
-            <button id="start-btn" class="btn">Start</button>
-            <button id="rules-btn" class="btn">Rules</button>
-            <button id="next-btn" class="btn hide">Next</button>
-            <button id="results-btn" class="btn hide">Results</button>
-            <button id="restart-quiz" class="btn hide">Restart</button>
-        </div>
-    </div>
-    
-</main>
+    </main>
 
     <script src="assets/js/script.js"></script>
 </body>
