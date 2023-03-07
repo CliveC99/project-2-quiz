@@ -99,6 +99,16 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   - I tested that the text was easily readable using the text contrast feature in dev tools.
   - The smallest screen size is recommended at 320px x 745px.
   - I asked for feedback in the "Peer-code-review" channel on slack. This brought a few bugs to my knowledge.
+  - I tested each button individually to make sure they were working. Examples:
+  
+   | Feature        |    Expected   | Result |
+   | -------------  |:-------------:| -----:|
+   | Start Button   | Start Quiz    | Quiz Started |
+   | Rules Button   | Open Rules    | Rules Section Opened |
+   | Results Button | Open Results  | Results Section Opened |
+   | Restart Button | Return Home   | 404 Error Page |
+   | Next Button    | Next Question | Next Question Shown |
+   
   
 
 # Validation
