@@ -40,8 +40,11 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 # UX
 ### **User Goals** 
 - As a user, I want to answer questions so I can test my knowledge.
+- As a user, I want to be able to read the rules section so I understand what is happening in the quiz.
+- As a user, I want to be able to read the questions and answers so there isnt a delay.
+- As a user, I want to see what question number I am on to know how many questions are left.
 - As a user, I want to use the quiz without bugs so the quiz runs smoothly.
-- As a user, I want to be able to view the quiz on any device so I can change device.
+- As a user, I want to be able to view the quiz on any device so I can use other devices.
 
 ### **Site Owner Goals**
 - As the site owner, I want to be able to update the quiz so returning users will have new questions.
