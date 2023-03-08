@@ -144,3 +144,41 @@ body.wrong {
         gap: 15px;
     }
 }
+
+.username {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-input {
+    position: relative;
+    margin-bottom: 5%;
+    right: -14%;
+    border: 2px solid #Ff5f2d;
+    border-radius: 10px;
+    background-color: #fff;
+    color: green;
+}
+
+.text-input:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.submit-buttton {
+    font-size: 1.3em;
+    position: relative;
+    left: 30%;
+    margin-bottom: 5%;
+    background-color: #fff;
+    color: #Ff5f2d;
+}
+
+.submit-buttton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
