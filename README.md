@@ -110,7 +110,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
    | Start Button   | Start Quiz    | Quiz Started |
    | Rules Button   | Open Rules    | Rules Section Opened |
    | Results Button | Open Results  | Results Section Opened |
-   | Restart Button | Return Home   | 404 Error Page |
+   | Restart Button | Return Home   | 404 Error Page - Fix: change file path from `../` to `./` |
    | Next Button    | Next Question | Next Question Shown |
    
 
