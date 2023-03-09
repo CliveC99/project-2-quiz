@@ -146,7 +146,7 @@ body.wrong {
     }
 }
 
-#username-text {
+.username-text {
     font-size: 1.1em;
     text-transform: uppercase;
     display: flex;
@@ -154,7 +154,7 @@ body.wrong {
     align-items: center;    
 }
 
-#text-input {
+.text-input {
     position: relative;
     margin-bottom: 5%;
     right: -14%;
@@ -164,7 +164,7 @@ body.wrong {
     color: green;
 }
 
-#text-input:hover {
+.text-input:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }

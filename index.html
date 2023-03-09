@@ -27,13 +27,17 @@
     <main>
         <!-- GAME AREA -->
         <div class="quiz-box">
+            <!-- FORM FOR USERNAME ENTERY -->
+            <div>
+            <form method="GET" id="form-section">
+                <label for="username" class="username-text">Enter Username:</label>
+                <input name="username" id="username" type="text" class="text-input">
 
-            <form>
-                <label for="username"  id="username-text">Enter Username:</label>
-                <input type="text" id="text-input" name="username">
+
                 <br>
-                <input type="submit" id="submit-button" required>
+                <input type="submit" id="submit-button">
             </form>
+            </div>
         <!--Question area / Answer button area-->
             <section id="question-area" class="hide">
                 <p id="question-text">Question: <span id="question-number">0</span></p>
