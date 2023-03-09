@@ -39,10 +39,22 @@ submitButton.addEventListener("click", usernameSubmit);
 
 
 function usernameSubmit(e) {
+  checkUsername();
   startButton.classList.remove("hide");
+  rulesButton.classList.remove("hide");
   // Prevent reload of form - help from https://stackoverflow.com/questions/73132199/how-to-avoid-page-refresh-when-user-types-in-invalid-form-input
   e.preventDefault();
 } 
+
+function checkUsername(e) {
+  if (username !== null && username.value === "")
+  {
+    alert("Please enter a username!")
+    e.preventDefault();
+  }
+}
+
+
 
 
 
