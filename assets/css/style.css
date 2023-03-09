@@ -35,7 +35,8 @@ body {
     background-color: #fff;
     color: #Ff5f2d;
 }
- /* Help from https://dev.to/webdeasy/top-20-css-buttons-animations-f41 */
+
+/* Help from https://dev.to/webdeasy/top-20-css-buttons-animations-f41 */
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -105,23 +106,23 @@ body.wrong {
 
 /***************************************** FORM AREA *****************************************************************/
 
+#form-section {
+    text-align: center;
+}
 
 .username-text {
     font-size: 1.1em;
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
 }
 
 .text-input {
-    position: relative;
-    right: -15%;
-    margin-bottom: 5%;
+    width: 50%;
+    height: 3vh;
     border: 2px solid #Ff5f2d;
     border-radius: 10px;
     background-color: #fff;
     color: green;
+    margin-top: 5%;
 }
 
 .text-input:hover {
@@ -131,11 +132,9 @@ body.wrong {
 
 #submit-button {
     font-size: 1.3em;
-    position: relative;
-    left: 30%;
-    margin-bottom: 5%;
     background-color: #fff;
     color: #Ff5f2d;
+    margin-top: 5%;
 }
 
 #submit-button:hover {
@@ -162,23 +161,6 @@ body.wrong {
     }
 }
 
-/* For devices with a min width of 615px */
-@media only screen and (min-width: 615px) {
-    /* Chanages the position of the text input */
-    .text-input {
-        position: relative;
-        right: -22%;
-    }
-}
-
-/* For devices with a min width of 715px */
-@media only screen and (min-width: 715px) {
-    /* Chanages the position of the text input */
-    .text-input {
-        position: relative;
-        right: -27%;
-    }
-}
 
 /* For devices with a min width of 767px */
 @media only screen and (min-width: 767px) {
@@ -191,20 +173,12 @@ body.wrong {
         width: 50%;
     }
 
-    .text-input {
-        font-size: 0.7em;
-        position: relative;
-        right: -15%;
-    }
 
-}
+    /* Change the size of the input area */
 
-/* For devices with a min width of 968 */
-@media only screen and (min-width: 968px) {
-    /* Chanages the position of the text input */
     .text-input {
-        position: relative;
-        right: -20%;
+        width: 40vw;
+        height: 4vh;
     }
 }
 
@@ -219,8 +193,20 @@ body.wrong {
         gap: 15px;
     }
 
+    /* Change the size of the input area */
+
     .text-input {
-        position: relative;
-        right: -30%;
+        width: 27vw;
+        height: 5vh;
+    }
+}
+
+/* For devices with a min width of 1599px */
+@media only screen and (min-width: 1599px) {
+
+    /* Change the size of the input area */
+
+    .text-input {
+        width: 30vw;
     }
 }
