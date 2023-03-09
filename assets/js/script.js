@@ -35,6 +35,15 @@ restartQuiz.addEventListener("click", () => {
   window.location="./index.html";
 });
 
+submitButton.addEventListener("click", usernameSubmit);
+
+
+function usernameSubmit(e) {
+  startButton.classList.remove("hide");
+  // Prevent reload of form - help from https://stackoverflow.com/questions/73132199/how-to-avoid-page-refresh-when-user-types-in-invalid-form-input
+  e.preventDefault();
+} 
+
 
 
 
