@@ -68,6 +68,9 @@ function startQuiz() {
 function rulesInfo() {
   rulesButton.classList.add("hide");
   rules.classList.remove("hide");
+  enterUsername.classList.add("hide");
+  textUsername.classList.add("hide");
+  submitUsername.classList.add("hide");
 }
 
 
