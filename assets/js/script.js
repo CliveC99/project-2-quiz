@@ -12,6 +12,8 @@ let restartQuiz = document.getElementById("restart-quiz");
 let results = document.getElementById("view-results");
 let finalScore = 0;
 let formSection = document.getElementById("form-section");
+let username = document.getElementById("username");
+let submitButton = document.getElementById("submit-button");
 
 
 
