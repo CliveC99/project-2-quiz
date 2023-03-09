@@ -102,49 +102,9 @@ body.wrong {
     color: #fff;
 }
 
-/***************************************** 404 ERROR PAGE **************************************************************/
-.error-text {
-    font-size: 1.7em;
-    text-transform: uppercase;
-    text-align: center;
-}
 
-/****************************************** BREAKPOINTS *****************************************************************/
-/* For devices with a min width of 460px */
-@media only screen and (min-width: 460px) {
+/***************************************** FORM AREA *****************************************************************/
 
-    /* Chanages the position and width of the quiz box */
-    .quiz-box {
-        position: absolute;
-        right: 15%;
-        width: 50%;
-    }
-}
-
-/* For devices with a min width of 767px */
-@media only screen and (min-width: 767px) {
-
-    /* Chanages the position, width and font size of the quiz box */
-    .quiz-box {
-        font-size: 2em;
-        position: absolute;
-        right: 15%;
-        width: 50%;
-    }
-
-}
-
-/* For devices with a min width of 1279px */
-@media only screen and (min-width: 1279px) {
-
-    /* Chanages the answers buttons to be stacked side by side  */
-    .btn-grid {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        margin: 20px 0px;
-        gap: 15px;
-    }
-}
 
 .username-text {
     font-size: 1.1em;
@@ -156,8 +116,8 @@ body.wrong {
 
 .text-input {
     position: relative;
+    right: -15%;
     margin-bottom: 5%;
-    right: -14%;
     border: 2px solid #Ff5f2d;
     border-radius: 10px;
     background-color: #fff;
@@ -181,4 +141,86 @@ body.wrong {
 #submit-button:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/***************************************** 404 ERROR PAGE **************************************************************/
+.error-text {
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/****************************************** BREAKPOINTS *****************************************************************/
+/* For devices with a min width of 460px */
+@media only screen and (min-width: 460px) {
+
+    /* Chanages the position and width of the quiz box */
+    .quiz-box {
+        position: absolute;
+        right: 15%;
+        width: 50%;
+    }
+}
+
+/* For devices with a min width of 615px */
+@media only screen and (min-width: 615px) {
+    /* Chanages the position of the text input */
+    .text-input {
+        position: relative;
+        right: -22%;
+    }
+}
+
+/* For devices with a min width of 715px */
+@media only screen and (min-width: 715px) {
+    /* Chanages the position of the text input */
+    .text-input {
+        position: relative;
+        right: -27%;
+    }
+}
+
+/* For devices with a min width of 767px */
+@media only screen and (min-width: 767px) {
+
+    /* Chanages the position, width and font size of the quiz box */
+    .quiz-box {
+        font-size: 2em;
+        position: absolute;
+        right: 15%;
+        width: 50%;
+    }
+
+    .text-input {
+        font-size: 0.7em;
+        position: relative;
+        right: -15%;
+    }
+
+}
+
+/* For devices with a min width of 968 */
+@media only screen and (min-width: 968px) {
+    /* Chanages the position of the text input */
+    .text-input {
+        position: relative;
+        right: -20%;
+    }
+}
+
+/* For devices with a min width of 1279px */
+@media only screen and (min-width: 1279px) {
+
+    /* Chanages the answers buttons to be stacked side by side  */
+    .btn-grid {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        margin: 20px 0px;
+        gap: 15px;
+    }
+
+    .text-input {
+        position: relative;
+        right: -30%;
+    }
 }
