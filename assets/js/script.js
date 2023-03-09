@@ -48,7 +48,7 @@ function usernameSubmit(e) {
   rulesButton.classList.remove("hide");
   // Prevent reload of form - help from https://stackoverflow.com/questions/73132199/how-to-avoid-page-refresh-when-user-types-in-invalid-form-input
   e.preventDefault();
-  formSection.classList.add("hide")
+  formSection.classList.add("hide");
 }
 
 /**
@@ -59,7 +59,7 @@ function usernameSubmit(e) {
 // help from https://stackoverflow.com/questions/8803412/check-if-an-html-input-element-is-empty-or-has-no-value-entered-by-user
 function checkUsername(e) {
   if (username !== null && username.value === "") {
-    alert("Please enter a username!")
+    alert("Please enter a username!");
     // Prevent reload of form - help from https://stackoverflow.com/questions/73132199/how-to-avoid-page-refresh-when-user-types-in-invalid-form-input
     e.preventDefault();
   }
@@ -183,6 +183,7 @@ function selectAnswer(event) {
  * Turns the buttons and background colours depending on the answer selected.
  * Adds/Hides the buttons required for the quiz.
  */
+// help from  https://www.youtube.com/watch?v=riDzcEQbX6k&t=180s&ab_channel=WebDevSimplified 
 function setStatusClass(element, correct) {
   clearStatus(element);
   if (correct) {

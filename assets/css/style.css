@@ -123,6 +123,7 @@ body.wrong {
     background-color: #fff;
     color: green;
     margin-top: 5%;
+    font-size: 0.7em;
 }
 
 .text-input:hover {
@@ -179,6 +180,7 @@ body.wrong {
     .text-input {
         width: 40vw;
         height: 4vh;
+        font-size: 1em;
     }
 }
 
@@ -208,5 +210,6 @@ body.wrong {
 
     .text-input {
         width: 30vw;
+        font-size: 1.3em;
     }
 }
