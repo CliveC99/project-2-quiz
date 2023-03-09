@@ -203,7 +203,7 @@ function clearStatus(element) {
  */
 let listOfQuestions = [
   {
-    question: "What county was Michael D Higgins born in?",
+    question: "Which county was Michael D Higgins born in?",
     answers: [
       {text: "Limerick", correct: true},
       {text: "Galway", correct: false},
@@ -239,7 +239,7 @@ let listOfQuestions = [
     ]
   },
   {
-    question: "How many provinces does Ireland have?",
+    question: "How many provinces are in Ireland?",
     answers: [
       {text: "One", correct: false},
       {text: "Two", correct: false},
@@ -275,7 +275,7 @@ let listOfQuestions = [
     ]
   },
   {
-    question: "The Cliffs of Mohor are in which county?",
+    question: "The Cliffs of Moher are in which county?",
     answers: [
       {text: "Galway", correct: false},
       {text: "Kerry", correct: false},
@@ -284,7 +284,7 @@ let listOfQuestions = [
     ]
   },
   {
-    question: "What street is The Spire on in Dublin?",
+    question: "Which street is The Spire on in Dublin?",
     answers: [
       {text: "Grafton Strret", correct: false},
       {text: "O'Connell Street", correct: true},
