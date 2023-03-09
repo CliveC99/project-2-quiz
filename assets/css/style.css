@@ -145,7 +145,7 @@ body.wrong {
     }
 }
 
-.username {
+#username-text {
     font-size: 1.1em;
     text-transform: uppercase;
     display: flex;
@@ -154,7 +154,7 @@ body.wrong {
     
 }
 
-.text-input {
+#text-input {
     position: relative;
     margin-bottom: 5%;
     right: -14%;
@@ -164,12 +164,12 @@ body.wrong {
     color: green;
 }
 
-.text-input:hover {
+#text-input:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.submit-buttton {
+#submit-button {
     font-size: 1.3em;
     position: relative;
     left: 30%;
@@ -178,7 +178,7 @@ body.wrong {
     color: #Ff5f2d;
 }
 
-.submit-buttton:hover {
+#submit-button:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
