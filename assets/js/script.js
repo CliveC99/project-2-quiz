@@ -83,6 +83,9 @@ function viewResultsInfo() {
   restartQuiz.classList.remove("hide");
   questionArea.classList.add("hide");
   viewResults.classList.add("hide");
+  enterUsername.classList.add("hide");
+  textUsername.classList.add("hide");
+  submitUsername.classList.add("hide");
   results.innerText = `Well done! You scored: 
   ${finalScore}/10 
   
