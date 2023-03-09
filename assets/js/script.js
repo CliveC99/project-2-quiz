@@ -11,9 +11,7 @@ let resultsInfo = document.getElementById("view-results");
 let restartQuiz = document.getElementById("restart-quiz");
 let results = document.getElementById("view-results");
 let finalScore = 0;
-let enterUsername = document.getElementById("username-text");
-let textUsername = document.getElementById("text-input");
-let submitUsername = document.getElementById("submit-button");
+let formSection = document.getElementById("form-section");
 
 
 
@@ -56,9 +54,8 @@ function startQuiz() {
     nextQuestion();
     resultsInfo.classList.add("hide");
     viewResults.classList.add("hide");
-    enterUsername.classList.add("hide");
-    textUsername.classList.add("hide");
-    submitUsername.classList.add("hide");
+    formSection.classList.add("hide");
+
 }
 
 /**
@@ -68,9 +65,7 @@ function startQuiz() {
 function rulesInfo() {
   rulesButton.classList.add("hide");
   rules.classList.remove("hide");
-  enterUsername.classList.add("hide");
-  textUsername.classList.add("hide");
-  submitUsername.classList.add("hide");
+  formSection.classList.add("hide");
 }
 
 
@@ -83,9 +78,7 @@ function viewResultsInfo() {
   restartQuiz.classList.remove("hide");
   questionArea.classList.add("hide");
   viewResults.classList.add("hide");
-  enterUsername.classList.add("hide");
-  textUsername.classList.add("hide");
-  submitUsername.classList.add("hide");
+  formSection.classList.add("hide");
   results.innerText = `Well done! You scored: 
   ${finalScore}/10 
   
