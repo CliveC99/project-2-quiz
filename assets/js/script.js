@@ -11,6 +11,9 @@ let resultsInfo = document.getElementById("view-results");
 let restartQuiz = document.getElementById("restart-quiz");
 let results = document.getElementById("view-results");
 let finalScore = 0;
+let enterUsername = document.getElementById("username-text");
+let textUsername = document.getElementById("text-input");
+let submitUsername = document.getElementById("submit-button");
 
 
 
@@ -34,6 +37,8 @@ restartQuiz.addEventListener("click", () => {
 
 
 
+
+
 /**
  * Runs when the Start button is clicked.
  * Shows the questions.
@@ -51,6 +56,9 @@ function startQuiz() {
     nextQuestion();
     resultsInfo.classList.add("hide");
     viewResults.classList.add("hide");
+    enterUsername.classList.add("hide");
+    textUsername.classList.add("hide");
+    submitUsername.classList.add("hide");
 }
 
 /**

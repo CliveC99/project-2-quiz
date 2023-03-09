@@ -63,6 +63,7 @@ body {
 
 .hide {
     display: none;
+    visibility: hidden;
 }
 
 #question {
@@ -150,8 +151,7 @@ body.wrong {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 #text-input {
