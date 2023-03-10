@@ -141,10 +141,12 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   - I used [W3S CSS Checker](https://jigsaw.w3.org/css-validator/) for testing my CSS code.
   - I used [JS Hint](https://jshint.com/) for testing my JavaScript code.
 
-    ![HTML Validation](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834602/Project%202%20-%20README%20Images/html-validation_qwtfbq.jpg)
-    ![404 Validation](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834610/Project%202%20-%20README%20Images/404-validation_ugqklm.jpg)
-    ![CSS Validation](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834603/Project%202%20-%20README%20Images/css-validation_dkrew7.jpg)
-    ![JS Hint Validation](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834600/Project%202%20-%20README%20Images/js-hint-validation_akqb8r.jpg)
+
+   | Validation        |      |
+   | -------------  |:-------------:| 
+   | HTML Validaton | ![HTML Validation](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834602/Project%202%20-%20README%20Images/html-validation_qwtfbq.jpg) |
+   | CSS Validaton |  ![CSS Validation](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834603/Project%202%20-%20README%20Images/css-validation_dkrew7.jpg) |
+   | JS Hint Validaton |  ![JS Hint Validation](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834600/Project%202%20-%20README%20Images/js-hint-validation_akqb8r.jpg) |
 
 # LightHouse Testing
   - Below are the results for the Home Page Lighthouse tests for mobile and desktop.
