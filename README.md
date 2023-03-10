@@ -89,6 +89,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 * Next Button - The next button brings the user to the next question.
 * Results button - The results button brings up the score the user got.
 * Restart button - The restart button brings the user back to the home page.
+* Question counter - The question counter lets the user know what question they are on.
 * The background turns red along with the incorrect buttons if the answer is wrong.
 * The background turns green along with the correct answer button if the answer is correct.
 
@@ -123,7 +124,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   
    | Feature        |    Expected   | Result       | Test |
    | -------------  |:-------------:| -----:| -----: |
-   | Username Section | Allows the user to input name  - Alert if no username present. Show Start button and Rules button if username present. | Start Button and Rules button show if username is present. | Press submit without a username. Press submit with a username. |
+   | Username Section | Allows the user to input a name  - Alert if no username is present. Show the Start button and Rules button if the username is present. | Start Button and Rules button show if the username is present. If no username is present it will alert the user. | Press submit without a username. Press submit with a username. |
    | Start Button   | Start Quiz - Show questions.    | Quiz Started - Questions shown | Pressed the start button to see if the quiz would start. |
    | Rules Button   | Open Rules Section.   | Rules Section Opened. | Pressed the Rules button to see if the rules section would open. |
    | Results Button | Open Results Section.  | Results Section Opened. | Pressed the Results button to see if the results section would open. |
@@ -133,7 +134,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
    | Testing        |    Expected   | Result       | Test |
    | -------------  |:-------------:| -----:| -----: |
    | Browser Testing | The Quiz would work in each browser. | The quiz works in each browser tested. | Play the quiz in each browser. |
-   | Mobile Testing | Function on each mobile screen size. | The quiz functions on each device tested. | Get friends to test the quiz on different devices. |
+   | Mobile Testing | Function on each mobile screen size. | The quiz functions on each device tested. | Test the device on my own mobile and get friends to test the quiz on different devices. |
    | Contrast of Text | The text would be read easily. | The text passed the test. | Use chrome dev tools to check the contrast of the text. |
 
 
