@@ -72,7 +72,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 
 
 # WireFrames 
-- Shown below is the Quiz Start Page wireframes for mobile and Desktop.
+- Shown below is the Quiz Start Page wireframes for mobile and desktop.
 - I used Balsamiq to create the wireframes.
 
 <p align="center"><img src="https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677585389/Project%202%20-%20README%20Images/mobile-wireframe_hp6k6w.png" alt="Home Page Mobile View"></p>
@@ -91,8 +91,8 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 * Next Button - The next button brings the user to the next question.
 * Results button - The results button brings up the score the user got.
 * Restart button - The restart button brings the user back to the home page.
-* The background turns red along with the buttons if the answer is wrong.
-* The background turns green along with the button if the answer is correct.
+* The background turns red along with the incorrect buttons if the answer is wrong.
+* The background turns green along with the correct answer button if the answer is correct.
 
 ![Rules Information](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678205245/Project%202%20-%20README%20Images/rules-info_dw69zt.jpg)
 
@@ -187,7 +187,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 - I was having issues where the question counter was not resetting back to 0 when the quiz ended.
    - I solved this by `window.location="./index.html";`. I got the help from [Stack Overflow.](https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript)
 
-   ## **Results counter showing every answer as correct**
+   ## **Results counter**
 - I was having issues where the result counter was showing every answer as being correct.
    - I solved this by adding `finalScore++;` to  `if (correct)` inside of the `selectAnswer` function.
 
@@ -199,7 +199,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 - I was having issues while using "Grid" within CSS for the placement of the answer buttons.
    - I solved this with the help of [W3S Schools.](https://www.w3schools.com/css/css_grid.asp)
 
-  ## **Answers going outside the quiz box**
+  ## **Answers position**
 - I was having issues where some of the question were going outside the quiz box on smaller devices.
   - I solved this by adding stacking the answers above each other on smaller devices.
 
@@ -257,4 +257,5 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   - I got help with the username verifaction from [Stack Overflow.](https://stackoverflow.com/questions/8803412/check-if-an-html-input-element-is-empty-or-has-no-value-entered-by-user)
   - I got help from [Stack Overflow](https://stackoverflow.com/questions/73132199/how-to-avoid-page-refresh-when-user-types-in-invalid-form-input) to stop the window from refreshing.
   - The table of contents idea was taken from [Stack Overflow.](https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki) I worked around it to make it work for mine.
-  - This project would not be possible without the help of my mentor, my friends, and my facilitator.
+  - This project would not be possible without the help of my mentor (Rory_Patrick), my friends, and my facilitator (Chris Quinn).
+  - I would also like to thank the private "Novemeber 2022-UCD" group on slack for the all the support.
