@@ -149,11 +149,14 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
    | JS Hint Validaton |  ![JS Hint Validation](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834600/Project%202%20-%20README%20Images/js-hint-validation_akqb8r.jpg) |
 
 # LightHouse Testing
-  - Below are the results for the Home Page Lighthouse tests for mobile and desktop.
-    ![Mobile Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439903/Project%202%20-%20README%20Images/mobile-lighthouse-report_joncc5.jpg)
-    ![Desktop Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677585389/Project%202%20-%20README%20Images/desktop-lighthouse-report_gwlti9.jpg)
-    ![Mobile 404 Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834987/Project%202%20-%20README%20Images/404-mobile_dacvjb.jpg)
-    ![Desktop 404 Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834991/Project%202%20-%20README%20Images/404-desktop_u3pcc1.jpg)
+  - Below are the Lightouse results.
+
+   | Lighthouse Testing        |      |
+   | -------------  |:-------------:| 
+   | Mobile Home Page | ![Mobile Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439903/Project%202%20-%20README%20Images/mobile-lighthouse-report_joncc5.jpg) |
+   | Laptop Home Page | ![Desktop Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677585389/Project%202%20-%20README%20Images/desktop-lighthouse-report_gwlti9.jpg) |
+   | Mobile 404 Error Page |   ![Mobile 404 Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834987/Project%202%20-%20README%20Images/404-mobile_dacvjb.jpg) |
+   | Laptop 404 Error Page |  ![Desktop 404 Lighthouse Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677834991/Project%202%20-%20README%20Images/404-desktop_u3pcc1.jpg) |
 
 # Deployment
   1. Open up [GitHub.](https://github.com/)
