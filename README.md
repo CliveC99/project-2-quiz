@@ -12,7 +12,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 
 ### **Disclaimer if you would like to open any links in a new tab use `Ctrl` and click the link.**
 
-![Home Page](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678186337/Project%202%20-%20README%20Images/am-i-responive_dsvw1s.jpg)
+![Home Page](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678425456/Project%202%20-%20README%20Images/am-i-responive_cjewks.jpg)
 
 # Table of Contents   
   - <p><a href="#ux">UX</a></p>
@@ -72,17 +72,16 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 
 
 # WireFrames 
-- Shown below is the Quiz Start Page wireframes for mobile and desktop.
 - I used Balsamiq to create the wireframes.
+- Shown below is the Mobile view of the question section of the quiz.
 
-<p align="center"><img src="https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677585389/Project%202%20-%20README%20Images/mobile-wireframe_hp6k6w.png" alt="Home Page Mobile View"></p>
+ To see the rest of the Wireframes [click here.](https://docs.google.com/presentation/d/e/2PACX-1vTcxjbCdlhSF9PTMTLYmfpm1_697pNNCJYatOte2DN9TMp50BRvr_z-qBdCjvzs_roPavOhoQ2L_3oR/pub?start=false&loop=false&delayms=10000) (Google Slides)
 
-<p align="center"><img src="https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677585389/Project%202%20-%20README%20Images/desktop-wireframe_z4b71o.png" alt="Home Page Desktop View"></p>
+ <p align="center"><img src="https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678426250/Project%202%20-%20README%20Images/mobile-wireframe_fsih32.png" alt="Information Section Mobile View"></p>
 
-![WireFrames](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677750087/Project%202%20-%20README%20Images/wireframes-all_i7nlun.jpg) 
 
 # Responsive Test
-![Responsive Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678186337/Project%202%20-%20README%20Images/am-i-responive_dsvw1s.jpg) 
+![Responsive Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678425456/Project%202%20-%20README%20Images/am-i-responive_cjewks.jpg) 
 
 # Features 
 * Username Section - This allows the user to input a name using a submit button.
@@ -94,9 +93,41 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 * The background turns red along with the incorrect buttons if the answer is wrong.
 * The background turns green along with the correct answer button if the answer is correct.
 
-![Rules Information](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678205245/Project%202%20-%20README%20Images/rules-info_dw69zt.jpg)
+- Below shows (in order) 
+  - Username section.
+  - Waiting to start the quiz section.
+  - Rules information section.
+  - Question area sample.
+  - Results information section.
+  - Button samples.
+  - Sample of correct answer.
+  - Sample of wrong answer.
+  - Alert for no username.
+
+
+![Username Section](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678438863/Project%202%20-%20README%20Images/username-section_qndt3n.jpg)
+
+![Start or Rules section](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678438925/Project%202%20-%20README%20Images/start-or-rules-section_nqonw1.jpg)
+
+![Question Area Sample](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678438986/Project%202%20-%20README%20Images/question-area-sample_n6tajh.jpg)
+
+![Rules Information](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678425666/Project%202%20-%20README%20Images/rules-info_e3da1m.jpg)
 
 ![Results Information](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678205243/Project%202%20-%20README%20Images/results-info_frrbb6.jpg)
+
+![Button Samples](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439036/Project%202%20-%20README%20Images/button-samples_wpjbvf.jpg)
+
+![Correct Answer Sample](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439233/Project%202%20-%20README%20Images/correct-answer-sample_tb6ntt.jpg)
+
+![Wrong Answer Sample](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439269/Project%202%20-%20README%20Images/wrong-answer-sample_tdewpu.jpg)
+
+![No username present](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439304/Project%202%20-%20README%20Images/alert-sample_fdvrvz.jpg)
+
+   # **Features To Be Added**
+  - Add difficulty levels to the quiz.
+  - Add more questions.
+  - Add a highscore leaderboard.
+  
 
 # Manual Testing 
   - From the start, the quiz was tested in different browsers (Chrome, Edge and Opera), While using dev tools. This was to make sure everything would run smoothly.
@@ -122,14 +153,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
    | Browser Testing | The Quiz would work in each browser. | The quiz works in each browser tested.. | Play the quiz in each browser. |
    | Mobile Testing | Function on each mobile screen size. | The quiz functions on each device tested. | Get friends to test the quiz on different devices. |
    | Contrast of Text | The text would be read easily. | The text passed the test. | Use chrome dev tools to check the contrast of the text. |
-   
-   
 
-   # **Features To Be Added**
-  - Add difficulty levels to the quiz.
-  - Add more questions.
-  - Add a highscore leaderboard.
-  
 
 # Validation
   - I used [W3S HTML Checker](https://validator.w3.org/) for testing my HTML code.
