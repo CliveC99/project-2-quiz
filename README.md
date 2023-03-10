@@ -250,6 +250,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   - I used [Google Fonts](https://fonts.google.com/) for the font.
   - I used [Favicon](https://favicon.io/) to create the tab icon.
   - I used [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/overview/) to debug the website and view different breakpoints.
+  - I used [Google Slides](https://www.google.com/slides/about/) for the wireframe slideshop.
 
   
 # Credits
@@ -258,9 +259,9 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 
   ## **Other**
   - I got help with the grid inside of CSS from [W3S Schools.](https://www.w3schools.com/css/css_grid.asp)
-  - I got help with the button hover from [W3S Schools.](https://www.w3schools.com/css/css_grid.asp)
+  - I got help with the button hover from [W3S Schools.](https://dev.to/webdeasy/top-20-css-buttons-animations-f41)
   - I got help with the return to home page from [Stack Overflow](https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript)
-  - I took inspiration for the quiz from [this video.]( https://www.youtube.com/watch?v=riDzcEQbX6k&t=180s&ab_channel=WebDevSimplifie)
+  - I took inspiration for the quiz from [youtube.]( https://www.youtube.com/watch?v=riDzcEQbX6k&t=180s&ab_channel=WebDevSimplifie)
   - I got help with the username verifaction from [Stack Overflow.](https://stackoverflow.com/questions/8803412/check-if-an-html-input-element-is-empty-or-has-no-value-entered-by-user)
   - I got help from [Stack Overflow](https://stackoverflow.com/questions/73132199/how-to-avoid-page-refresh-when-user-types-in-invalid-form-input) to stop the window from refreshing.
   - The table of contents idea was taken from [Stack Overflow.](https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki) I worked around it to make it work for mine.
