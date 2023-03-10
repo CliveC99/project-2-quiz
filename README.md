@@ -85,6 +85,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 ![Responsive Test](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678186337/Project%202%20-%20README%20Images/am-i-responive_dsvw1s.jpg) 
 
 # Features 
+* Username Section - This allows the user to input a name using a submit button.
 * Start Button - The start button brings up the questions.
 * Rules Button - The rules button brings up the rules of the quiz.
 * Next Button - The next button brings the user to the next question.
@@ -103,10 +104,12 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   - I tested that the text was easily readable using the text contrast feature in dev tools.
   - The smallest screen size is recommended at 320px x 745px.
   - I asked for feedback in the "Peer-code-review" channel on slack. This brought a few bugs to my knowledge.
+  - I noticed from the Learning Outcomes (6.2 Write code that intelligently handles empty or invalid input data.) That I had not included this. I added a username section that requies a username to play the game. If the user does not input a name there is an alert shown.
   - I tested each button individually to make sure they were working. Examples:
   
    | Feature        |    Expected   | Result |
    | -------------  |:-------------:| -----:|
+   | Username Section | Allows user to input name | Start Button and Rules button show if username is present. |
    | Start Button   | Start Quiz    | Quiz Started |
    | Rules Button   | Open Rules    | Rules Section Opened |
    | Results Button | Open Results  | Results Section Opened |
@@ -117,7 +120,6 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
    # **Features To Be Added**
   - Add difficulty levels to the quiz.
   - Add more questions.
-  - Add a username section.
   - Add a highscore leaderboard.
   
 
@@ -200,6 +202,10 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   ## **Answers going outside the quiz box**
 - I was having issues where some of the question were going outside the quiz box on smaller devices.
   - I solved this by adding stacking the answers above each other on smaller devices.
+
+  ## **Form section refreshing**
+- I was having issues where the form was resetting after the user hit submit.
+  - I solved this with the help of [Stack Overflow](https://stackoverflow.com/questions/73132199/how-to-avoid-page-refresh-when-user-types-in-invalid-form-input)
   
 # Added Items
    ## **FavIcon**
@@ -247,5 +253,8 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   - I got help with the grid inside of CSS from [W3S Schools.](https://www.w3schools.com/css/css_grid.asp)
   - I got help with the button hover from [W3S Schools.](https://www.w3schools.com/css/css_grid.asp)
   - I got help with the return to home page from [Stack Overflow](https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript)
+  - I took inspiration for the quiz from [this video.]( https://www.youtube.com/watch?v=riDzcEQbX6k&t=180s&ab_channel=WebDevSimplifie)
+  - I got help with the username verifaction from [Stack Overflow.](https://stackoverflow.com/questions/8803412/check-if-an-html-input-element-is-empty-or-has-no-value-entered-by-user)
+  - I got help from [Stack Overflow](https://stackoverflow.com/questions/73132199/how-to-avoid-page-refresh-when-user-types-in-invalid-form-input) to stop the window from refreshing.
   - The table of contents idea was taken from [Stack Overflow.](https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki) I worked around it to make it work for mine.
   - This project would not be possible without the help of my mentor, my friends, and my facilitator.
