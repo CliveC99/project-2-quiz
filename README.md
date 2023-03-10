@@ -96,12 +96,13 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
    | -------------  |:-------------:| 
    | Username section | ![Username Section](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678438863/Project%202%20-%20README%20Images/username-section_qndt3n.jpg) |
    | Section after username present | ![Start or Rules section](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678438925/Project%202%20-%20README%20Images/start-or-rules-section_nqonw1.jpg) |
+   | No username present | ![No username present](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439304/Project%202%20-%20README%20Images/alert-sample_fdvrvz.jpg) |
    | Question area sample | ![Question Area Sample](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678438986/Project%202%20-%20README%20Images/question-area-sample_n6tajh.jpg) |
    | Rules information | ![Rules Information](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678441882/Project%202%20-%20README%20Images/rules-info_ajahjh.jpg) |
    | Results information | ![Results Information](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678205243/Project%202%20-%20README%20Images/results-info_frrbb6.jpg) |
    | Wrong answer sample | ![Correct Answer Sample](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439233/Project%202%20-%20README%20Images/correct-answer-sample_tb6ntt.jpg) |
    | Correct answer sample | ![Wrong Answer Sample](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439269/Project%202%20-%20README%20Images/wrong-answer-sample_tdewpu.jpg) |
-   | No username present | ![No username present](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439304/Project%202%20-%20README%20Images/alert-sample_fdvrvz.jpg) |
+
 
 
    # **Features To Be Added**
