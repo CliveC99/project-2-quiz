@@ -227,8 +227,8 @@ let listOfQuestions = [{
   {
     question: "What is the smallest county in Ireland?",
     answers: [{
-        text: "Roscommon",
-        correct: false
+        text: "Louth",
+        correct: true
       },
       {
         text: "Offaly",
@@ -239,8 +239,8 @@ let listOfQuestions = [{
         correct: false
       },
       {
-        text: "Louth",
-        correct: true
+        text: "Roscommon",
+        correct: false
       }
     ]
   },
@@ -275,12 +275,12 @@ let listOfQuestions = [{
         correct: false
       },
       {
-        text: "Kerry",
-        correct: false
-      },
-      {
         text: "Dublin",
         correct: true
+      },
+      {
+        text: "Kerry",
+        correct: false
       }
     ]
   },
@@ -371,16 +371,16 @@ let listOfQuestions = [{
         correct: false
       },
       {
-        text: "Kerry",
-        correct: false
+        text: "Clare",
+        correct: true
       },
       {
         text: "Tipperary",
         correct: false
       },
       {
-        text: "Clare",
-        correct: true
+        text: "Kerry",
+        correct: false
       }
     ]
   },
