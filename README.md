@@ -203,29 +203,16 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   ![Git Commits](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1677835200/Project%202%20-%20README%20Images/git-commits_nbali8.jpg)
 
 # Bugs and Fixes
-   ## **Question counter not resetting** 
-- I was having issues where the question counter was not resetting back to 0 when the quiz ended.
-   - I solved this by `window.location="./index.html";`. I got the help from [Stack Overflow.](https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript)
 
-   ## **Results counter**
-- I was having issues where the result counter was showing every answer as being correct.
-   - I solved this by adding `finalScore++;` to  `if (correct)` inside of the `selectAnswer` function.
+| Bugs/Errors        |   Explain   | Fix |
+   | -------------  |:-------------:| -----: |
+   | Question counter not resetting  | The question counter was not resetting back to 0 when the quiz ended. | I solved this by `window.location="./index.html";`. I got the help from [Stack Overflow.](https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript) |
+   | Results counter | The result counter was showing every answer as being correct. | I solved this by adding `finalScore++;` to  `if (correct)` inside of the `selectAnswer` function. |
+   | 404 error page appearing | A 404 error page would show when the user pressed the restart button |  I solved this by changing the file path from `"../index.html"` to `"./index.html"`.|
+   | Grid Issues | I was having issues with "Grid" within CSS for the placement of the answer buttons. | I solved this with the help of [W3S Schools.](https://www.w3schools.com/css/css_grid.asp) `grid-template-columns: repeat(2, auto);` solved my issues. |
+   | Answer position | Some of the questions were going outside the quiz box on smaller screens | I solved this by stacking the answers above each other on smaller devices using `grid-template-columns: repeat(1, auto);` instead of `grid-template-columns: repeat(2, auto);` |
+   | Form section refreshing | I was having issue where the form was resetting after the user hit submit | I solved this with the help of [Stack Overflow](https://stackoverflow.com/questions/73132199/how-to-avoid-page-refresh-when-user-types-in-invalid-form-input) `e.preventDefault();` solved the issue. |
 
-   ## **404 Error page showing**
-- I was having issues where a 404 Error Page would show when the user pressed restart.
-   - I solved this by changing the file path from `"../index.html"` to `"./index.html"`.
-
-   ## **Grid issues**
-- I was having issues while using "Grid" within CSS for the placement of the answer buttons.
-   - I solved this with the help of [W3S Schools.](https://www.w3schools.com/css/css_grid.asp) `grid-template-columns: repeat(1, auto);` solved my issues.
-
-  ## **Answers position**
-- I was having issues where some of the question were going outside the quiz box on smaller devices.
-  - I solved this by stacking the answers above each other on smaller devices.
-
-  ## **Form section refreshing**
-- I was having issues where the form was resetting after the user hit submit.
-  - I solved this with the help of [Stack Overflow](https://stackoverflow.com/questions/73132199/how-to-avoid-page-refresh-when-user-types-in-invalid-form-input) `e.preventDefault();` solved the issue.
   
 # Added Items
    ## **FavIcon**
