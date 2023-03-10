@@ -101,20 +101,28 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 # Manual Testing 
   - From the start, the quiz was tested in different browsers (Chrome, Edge and Opera), While using dev tools. This was to make sure everything would run smoothly.
   - I was constantly testing the website on my phone to make sure everything looked good and worked as it should. (Xiaomi Mi 10T Pro)
+  - The quiz was also shared to friends to check on their devices - exmaples: Iphone 11 Pro, Iphone 12, Samsung Galaxy S20.
   - I tested that the text was easily readable using the text contrast feature in dev tools.
   - The smallest screen size is recommended at 320px x 745px.
   - I asked for feedback in the "Peer-code-review" channel on slack. This brought a few bugs to my knowledge.
   - I noticed from the Learning Outcomes (6.2 Write code that intelligently handles empty or invalid input data.) That I had not included this. I added a username section that requies a username to play the game. If the user does not input a name there is an alert shown.
   - I tested each button individually to make sure they were working. Examples:
   
-   | Feature        |    Expected   | Result |
-   | -------------  |:-------------:| -----:|
-   | Username Section | Allows user to input name | Start Button and Rules button show if username is present. |
-   | Start Button   | Start Quiz    | Quiz Started |
-   | Rules Button   | Open Rules    | Rules Section Opened |
-   | Results Button | Open Results  | Results Section Opened |
-   | Restart Button | Return Home   | 404 Error Page - Fix: change file path from `../` to `./` |
-   | Next Button    | Next Question | Next Question Shown |
+   | Feature        |    Expected   | Result       | Test |
+   | -------------  |:-------------:| -----:| -----: |
+   | Username Section | Allows the user to input name  - Alert if no username present. Show Start button and Rules button if username present. | Start Button and Rules button show if username is present. | Press submit without a username. Press submit with a username. |
+   | Start Button   | Start Quiz - Show questions.    | Quiz Started - Questions shown | Pressed the start button to see if the quiz would start. |
+   | Rules Button   | Open Rules Section.   | Rules Section Opened. | Pressed the Rules button to see if the rules section would open. |
+   | Results Button | Open Results Section.  | Results Section Opened. | Pressed the Results button to see if the results section would open. |
+   | Restart Button | Return to the landing section of the quiz.   | Brings the user to the username section. | Finish the quiz and press the restart button |
+   | Next Button    | Show the next question. | Next Question Shown | Answer a Question and press the next button. |
+
+   | Testing        |    Expected   | Result       | Test |
+   | -------------  |:-------------:| -----:| -----: |
+   | Browser Testing | The Quiz would work in each browser. | The quiz works in each browser tested.. | Play the quiz in each browser. |
+   | Mobile Testing | Function on each mobile screen size. | The quiz functions on each device tested. | Get friends to test the quiz on different devices. |
+   | Contrast of Text | The text would be read easily. | The text passed the test. | Use chrome dev tools to check the contrast of the text. |
+   
    
 
    # **Features To Be Added**
