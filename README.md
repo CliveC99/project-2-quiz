@@ -5,7 +5,7 @@ I created this quiz as a fun little game to test your knowledge on Ireland.
 
 The quiz has 10 questions that show up in random order each time. 
 
-Each question has 4 button options for answers. If you select the correct answer the background and answer button turn green. But if you select the wrong answer the background and answer buttons turn red.
+Each question has 4 button options for answers. If you select the correct answer the background and correct answer button turn green. But if you select the wrong answer the background incorrect answer buttons turn red.
 
 Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html)
 
@@ -33,8 +33,6 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
   - <p><a href="#tools-used">Tools Used</a></p>
   - <p><a href="#credits">Credits</a></p>
  
-
-
 
 
 # UX
@@ -85,6 +83,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 
 # Features 
 * Username Section - This allows the user to input a name using a submit button.
+* No Username - Alert for no username.
 * Start Button - The start button brings up the questions.
 * Rules Button - The rules button brings up the rules of the quiz.
 * Next Button - The next button brings the user to the next question.
@@ -93,35 +92,17 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 * The background turns red along with the incorrect buttons if the answer is wrong.
 * The background turns green along with the correct answer button if the answer is correct.
 
-- Below shows (in order) 
-  - Username section.
-  - Waiting to start the quiz section.
-  - Rules information section.
-  - Question area sample.
-  - Results information section.
-  - Button samples.
-  - Sample of correct answer.
-  - Sample of wrong answer.
-  - Alert for no username.
+| Feature        |      |
+   | -------------  |:-------------:| 
+   | Username section | ![Username Section](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678438863/Project%202%20-%20README%20Images/username-section_qndt3n.jpg) |
+   | Section after username present | ![Start or Rules section](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678438925/Project%202%20-%20README%20Images/start-or-rules-section_nqonw1.jpg) |
+   | Question area sample | ![Question Area Sample](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678438986/Project%202%20-%20README%20Images/question-area-sample_n6tajh.jpg) |
+   | Rules information | ![Rules Information](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678441882/Project%202%20-%20README%20Images/rules-info_ajahjh.jpg) |
+   | Results information | ![Results Information](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678205243/Project%202%20-%20README%20Images/results-info_frrbb6.jpg) |
+   | Wrong answer sample | ![Correct Answer Sample](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439233/Project%202%20-%20README%20Images/correct-answer-sample_tb6ntt.jpg) |
+   | Correct answer sample | ![Wrong Answer Sample](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439269/Project%202%20-%20README%20Images/wrong-answer-sample_tdewpu.jpg) |
+   | No username present | ![No username present](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439304/Project%202%20-%20README%20Images/alert-sample_fdvrvz.jpg) |
 
-
-![Username Section](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678438863/Project%202%20-%20README%20Images/username-section_qndt3n.jpg)
-
-![Start or Rules section](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678438925/Project%202%20-%20README%20Images/start-or-rules-section_nqonw1.jpg)
-
-![Question Area Sample](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678438986/Project%202%20-%20README%20Images/question-area-sample_n6tajh.jpg)
-
-![Rules Information](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678425666/Project%202%20-%20README%20Images/rules-info_e3da1m.jpg)
-
-![Results Information](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678205243/Project%202%20-%20README%20Images/results-info_frrbb6.jpg)
-
-![Button Samples](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439036/Project%202%20-%20README%20Images/button-samples_wpjbvf.jpg)
-
-![Correct Answer Sample](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439233/Project%202%20-%20README%20Images/correct-answer-sample_tb6ntt.jpg)
-
-![Wrong Answer Sample](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439269/Project%202%20-%20README%20Images/wrong-answer-sample_tdewpu.jpg)
-
-![No username present](https://res.cloudinary.com/dp9lxtk3y/image/upload/v1678439304/Project%202%20-%20README%20Images/alert-sample_fdvrvz.jpg)
 
    # **Features To Be Added**
   - Add difficulty levels to the quiz.
@@ -150,7 +131,7 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 
    | Testing        |    Expected   | Result       | Test |
    | -------------  |:-------------:| -----:| -----: |
-   | Browser Testing | The Quiz would work in each browser. | The quiz works in each browser tested.. | Play the quiz in each browser. |
+   | Browser Testing | The Quiz would work in each browser. | The quiz works in each browser tested. | Play the quiz in each browser. |
    | Mobile Testing | Function on each mobile screen size. | The quiz functions on each device tested. | Get friends to test the quiz on different devices. |
    | Contrast of Text | The text would be read easily. | The text passed the test. | Use chrome dev tools to check the contrast of the text. |
 
@@ -229,15 +210,15 @@ Check out [Ireland's Quiz.](https://clivec99.github.io/project-2-quiz/index.html
 
    ## **Grid issues**
 - I was having issues while using "Grid" within CSS for the placement of the answer buttons.
-   - I solved this with the help of [W3S Schools.](https://www.w3schools.com/css/css_grid.asp)
+   - I solved this with the help of [W3S Schools.](https://www.w3schools.com/css/css_grid.asp) `grid-template-columns: repeat(1, auto);` solved my issues.
 
   ## **Answers position**
 - I was having issues where some of the question were going outside the quiz box on smaller devices.
-  - I solved this by adding stacking the answers above each other on smaller devices.
+  - I solved this by stacking the answers above each other on smaller devices.
 
   ## **Form section refreshing**
 - I was having issues where the form was resetting after the user hit submit.
-  - I solved this with the help of [Stack Overflow](https://stackoverflow.com/questions/73132199/how-to-avoid-page-refresh-when-user-types-in-invalid-form-input)
+  - I solved this with the help of [Stack Overflow](https://stackoverflow.com/questions/73132199/how-to-avoid-page-refresh-when-user-types-in-invalid-form-input) `e.preventDefault();` solved the issue.
   
 # Added Items
    ## **FavIcon**
